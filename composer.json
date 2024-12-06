@@ -1,0 +1,18 @@
+{
+    "name": "tecdynamics/get-started",
+    "description": "Make site ready in few steps",
+    "type": "package",
+    "autoload": {
+        "psr-4": {
+            "Tec\\GetStarted\\": "src"
+        }
+    },
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tec\\GetStarted\\Providers\\GetStartedServiceProvider"
+            ]
+        }
+    }
+}
