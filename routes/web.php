@@ -10,7 +10,6 @@ Route::group(['namespace' => 'Tec\GetStarted\Http\Controllers'], function () {
                 'as' => 'get-started.save',
                 'uses' => 'GetStartedController@save',
                 'permission' => false,
-                'middleware' => 'preventDemo',
             ]);
         });
     });
